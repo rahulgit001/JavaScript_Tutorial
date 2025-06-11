@@ -24,6 +24,8 @@ console.log(typeof (num));
 
 //  2. Non-Primitive (Reference) Data Types
 
+// Objects, Array, Functions
+
 const persion = {
     name: "rahul",
     lastname: "kumar",
@@ -59,3 +61,7 @@ console.log(booleanis);
 let sumnumber = 77
 let stringNumber = String(sumnumber)
 console.log(stringNumber)
+
+// Array
+
+let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9]

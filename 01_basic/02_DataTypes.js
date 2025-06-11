@@ -13,3 +13,20 @@ console.log(booleanin);
 
 // 1 => true;, 0 => falsh
 // "" => falsh "rahul" => true
+
+// reference (non primitive)
+
+//  Array, objests, functions
+const heros =["shaka", "ajay", "rahul",]
+
+let myobjects = {
+  name: "rahul",
+  age: 25,
+}
+console.log(myobjects);
+
+const myfunction = function(){
+  console.log("hello rahul");
+}
+
+console.log(typeof myfunction);
