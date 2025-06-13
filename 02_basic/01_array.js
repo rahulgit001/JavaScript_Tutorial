@@ -12,12 +12,33 @@ console.log(myArr2[0]);
 
 // Array Methods
 
-myArr.push(9)
+let brr = new Array('name', 1, true)
+brr.push(9)  // add vallue  end
 
-myArr.pop()   // last vallue removed
+brr.pop()   // last vallue removed
 
-myArr.unshift(9)  //add vallue from start
-myArr.shift()    // remove vallue from first
+brr.unshift("rahul")  //add vallue from start
+brr.shift()    // remove vallue from start
+brr.push(10)
+brr.push(20)
+brr.push(30)
+console.log(brr.slice(2, 4));
+brr.splice(1,2, 'logan'); // contant change , insert, replase, remove
+
+console.log(brr);
+
+// map
+let rahul = [10, 20, 30]
+
+rahul.map((number,index) => {
+    console.log(number);
+    console.log(index);
+})
+
+let num = Arr.map((number) => {
+    return number * number
+})
+console.log(num)
 
 console.log(myArr.includes(9));
 console.log(myArr.indexOf(9));
@@ -41,3 +62,5 @@ console.log("B ", newa);
 
 console.log("c ", newa)
 // console.log(myar2);
+
+// Array 
