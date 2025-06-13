@@ -40,6 +40,17 @@ let num = Arr.map((number) => {
 })
 console.log(num)
 
+//  filter
+let rahu = [10, 20, 30, 11, 21, 44, 51];
+let evenArray = rahu.filter((number) => {
+    if (number % 2 === 0) {
+        return true;
+    }else{
+        return false
+    }
+})
+console.log(evenArray)
+
 console.log(myArr.includes(9));
 console.log(myArr.indexOf(9));
 console.log(myArr)
