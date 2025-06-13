@@ -1,7 +1,7 @@
 // singleton 
-
+const username = new Object()
 // Real Life Objects
-
+// non singleton
 const user = {
     name: "Rahul",
     lname: "kumar",
